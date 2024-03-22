@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#dee9eb"
+    tools:context=".Scoreboard3Activity">
+
+    <TextView
+        android:id="@+id/player1ScoreTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="Player 1 Score:"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/player2ScoreTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/player1ScoreTextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/player3ScoreTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/player2ScoreTextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/nextButton"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="121dp"
+        android:layout_marginTop="651dp"
+        android:layout_marginEnd="119dp"
+        android:layout_marginBottom="32dp"
+        android:backgroundTint="#CAB08B"
+        android:text="Back to the chapet"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="105dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="173dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="133dp"
+        android:layout_marginBottom="661dp"
+        android:text="Score"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
